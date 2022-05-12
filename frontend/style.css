@@ -6,11 +6,12 @@ section {
 
 #first {
   background-color: #efd592;
+  position: relative;
 }
 
 #second {
   background-color: #4343f9;
-  position: absolute;
+  position: relative;
 }
 
 #button-1 {
