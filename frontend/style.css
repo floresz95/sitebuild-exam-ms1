@@ -1,0 +1,72 @@
+section {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1200px;
+}
+
+#first {
+  background-color: #efd592;
+}
+
+#second {
+  background-color: #4343f9;
+  position: absolute;
+}
+
+#button-1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 200px;
+  height: 200px;
+  border: 0;
+  border-radius: 50%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  background-color: #242d38;
+  color: #efd592;
+}
+
+#button-2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 40px;
+  width: 200px;
+  height: 60px;
+  border-width: 6px;
+  border-color: #242d38;
+  font-family: 'Poppins', sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  background-color: #efd592;
+  color: #242d38;
+}
+
+#button-3 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-bottom: 20px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 200px;
+  height: 60px;
+  border: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 21px;
+  font-weight: 400;
+  text-transform: capitalize;
+  background-color: #4343f9;
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 20px -5px #242d38;
+          box-shadow: 0px 0px 20px -5px #242d38;
+}
+/*# sourceMappingURL=style.css.map */
